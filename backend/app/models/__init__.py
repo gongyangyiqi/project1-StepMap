@@ -1,0 +1,5 @@
+from app.models.footprint import Footprint
+from app.models.trip import Trip
+from app.models.user import User
+
+__all__ = ["User", "Trip", "Footprint"]
