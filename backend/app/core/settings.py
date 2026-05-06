@@ -14,6 +14,8 @@ class Settings(BaseSettings):
     jwt_algorithm: str
     jwt_expire_minutes: int
 
+    cors_origins: str = "http://127.0.0.1:5173,http://localhost:5173,https://project1-step-map.vercel.app"
+
     s3_endpoint_url: str
     s3_region: str
     s3_bucket: str
