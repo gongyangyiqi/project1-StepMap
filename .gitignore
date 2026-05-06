@@ -21,23 +21,9 @@ venv/
 *.db
 *.db-journal
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
 # Test artifacts
 .test-artifacts/
 .pytest_cache_test/
 
 # Uploads (runtime files)
 uploads/
-
-# Logs
-*.log
